@@ -1,0 +1,7 @@
+﻿<Project>
+    <PropertyGroup>
+        <Nullable>true</Nullable>
+        <LangVersion>preview</LangVersion>
+        <TargetFramework>net8.0</TargetFramework>
+    </PropertyGroup>
+</Project>
