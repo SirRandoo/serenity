@@ -1,1 +1,3 @@
-﻿# Discourse
+﻿# Serenity
+
+A bot for Discord.
