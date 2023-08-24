@@ -14,7 +14,7 @@ CREATE TYPE StreamPlatforms AS ENUM ('unknown', 'twitch', 'trovo', 'glimesh');
  */
 CREATE TABLE UserStreamData
 (
-    user_id        BIGINT REFERENCES Users (id) ON DELETE CASCADE,
+    user_id        BIGINT REFERENCES Users (user_id) ON DELETE CASCADE,
     platform       StreamPlatforms DEFAULT UNKNOWN,
     user_identity  VARCHAR(255)    DEFAULT NULL,
     is_advertising BOOLEAN         DEFAULT FALSE,
